@@ -7,7 +7,7 @@ namespace UnitTestingExercise.Tests
     {
         [Theory]
         [InlineData(2, 3, 5, 10)] //Add test data <-------
-        [InlineData(2, 8, 10, 18)]
+        [InlineData(2, 8, 10, 20)]
         [InlineData(2, 4, 6, 12)]
 
         public void AddTest(int num1, int num2, int num3, int expected)
